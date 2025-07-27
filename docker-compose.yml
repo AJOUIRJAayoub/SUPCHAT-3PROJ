@@ -1,0 +1,13 @@
+services:
+  backend:
+    build: ./supchat-backend-main
+    ports:
+      - "5001:5000"
+    env_file:
+      - env.txt
+  frontend:
+    build: ./supchat-web-main
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
