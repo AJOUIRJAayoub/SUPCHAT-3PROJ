@@ -238,10 +238,3 @@ Pour une application de chat à grande échelle, considérer :
    - **PostgreSQL + TimescaleDB** : Pour l'analytique des messages
 
 Cette architecture actuelle reste totalement fonctionnelle pour un usage normal et peut gérer plusieurs milliers d'utilisateurs sans problème.
-
-## Remerciements
-
-- [Socket.io](https://socket.io/) pour la communication temps réel
-- [Cloudinary](https://cloudinary.com/) pour le stockage d'images
-- [MongoDB Atlas](https://www.mongodb.com/atlas) pour la base de données
-- La communauté React et Node.js
